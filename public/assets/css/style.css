@@ -1,0 +1,37 @@
+h1{
+color: white;
+}
+
+h2 {
+  color: #555555;
+}
+
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #e3e3e3;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+
+#header {
+  background-color: black;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
