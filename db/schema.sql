@@ -5,7 +5,7 @@
 	CREATE DATABASE burger_db;
 
 -- Switch to or use the burgers_db.
-	USE burger_db;
+	USE vob9zgh4incw75yd;
 
 -- Create a burgers table with these fields:
 	CREATE TABLE burgers (
@@ -15,5 +15,8 @@
 	burger_name VARCHAR(100),
 	-- devoured: a boolean.
 	devoured BOOLEAN DEFAULT false,
+
+	createdAt TIMESTAMP NOT NULL,
+
 	PRIMARY KEY (id)
 );
